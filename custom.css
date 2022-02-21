@@ -131,7 +131,16 @@ body {
 .navTog {
   outline: none;
   border: none;
+  background: red;
+  padding: 0px !important;
+  margin: 0 !important;
+}
+.navTog:focus {
+  outline: none;
+  border: none;
   background: none;
+  padding: 0px !important;
+  margin: 0 !important;
 }
 
 /*  =======================================  */
