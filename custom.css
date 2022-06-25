@@ -10,7 +10,7 @@ body {
 /*  Everything related to the header video and it's overlays's customization are below  */
 
 .v-header {
-  height: 85vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   color: white;
@@ -67,12 +67,12 @@ body {
 .pinky-button {
   background-color: #ff3366;
   color: white;
-  font-size: 0.9vw;
+  font-size: 1rem;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 13vw;
+  width: 270px;
   height: 65px;
   margin-right: 0 10px 0 10px;
   border-radius: 99px;
@@ -81,12 +81,12 @@ body {
 .custom-button {
   border: 1px solid white;
   color: white;
-  font-size: 0.9vw;
+  font-size: 1rem;
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 13vw;
+  width: 270px;
   margin: 0 10px 0 10px;
   height: 65px;
   border-radius: 99px;
@@ -196,7 +196,7 @@ body {
 }
 
 .purple-section-text {
-  font-size: 3.6vw;
+  font-size: 1.6rem;
   width: 75%;
   margin: 0 auto;
   font-weight: 600;
@@ -204,17 +204,24 @@ body {
 }
 
 .purple-section-anchor {
-  font-size: 3.8vw;
+  font-size: 1.7rem;
   color: #ffffff;
   font-weight: 600;
 }
 
 .footer-copyright {
-  font-size: 0.6vw;
+  font-size: 1rem;
 }
 
 .footer-copyright-text {
   margin: 0 50px;
+}
+
+
+@media only screen and (min-device-width: 1400px) {
+  .nav-item {
+    margin-right: 30px;
+  }
 }
 
 @media only screen and (max-device-width: 980px) {
@@ -229,22 +236,22 @@ body {
 
   .pinky-button {
     width: 40vw;
-    font-size: 4vw;
+    font-size: 1.2rem;
     margin: 10px 0 10px 0;
   }
 
   .custom-button {
     width: 40vw;
-    font-size: 4vw;
+    font-size: 1.2rem;
     margin: 10px 0 10px 0;
   }
 
   .design-h {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
   }
 
   .design-p {
-    font-size: 0.6vw;
+    font-size: 0.6rem;
   }
 
   .col-text-centering-container {
@@ -288,10 +295,23 @@ body {
   .footer-copyright {
     flex-direction: column !important;
     margin: 0 auto;
-    font-size: 3.3vw;
+    font-size: 1rem;
   }
 
   .sm-size-container {
     width: 100% !important;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .pinky-button {
+    width: 70%;
+    font-size: 1rem;
+  }
+
+  .custom-button {
+    width: 70%;
+    font-size: 1rem;
   }
 }
